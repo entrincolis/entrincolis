@@ -1,0 +1,972 @@
+
+
+
+body {
+  margin: 0;
+  font-family: "Gulzar", serif;
+  background-color: #f0f0f0;
+}
+
+.header {
+  max-width: 100%;
+  justify-content: space-between;
+  display: flex;
+  padding: 10px;
+  background-color: #f0f0f0;
+  padding: 10px;
+  gap: 0; /* Espacio general entre columnas, puede ser ajustado individualmente también */
+  margin-bottom: 100px;
+  color: #494949;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.column-1 {
+  margin-right: 100px;
+}
+
+.column-2 {
+  margin-right: 0px;
+}
+
+.column-3 {
+  margin-right: 300px;
+}
+.column-4 {
+  margin-right: 60px;
+}
+
+.column-5 {
+  margin-right: 0;
+}
+
+.column-6 {
+  display: none;
+}
+
+
+.column p {
+  margin: 0;
+  font-family: "Gulzar", serif;
+  font-weight: 400;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 18px;
+  
+}
+
+a{
+  text-decoration: none;
+  color: #494949;
+}
+
+.titulos-proyecto {
+  max-width: 100%;
+  justify-content: flex-start;
+  display: flex;
+  background-color: #f0f0f0;
+  padding: 0;
+  margin-bottom: 0;
+  padding-left: 10px;
+  color: #939393;
+  white-space: pre-wrap;
+}
+
+.proyecto {
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+}
+
+.info-1 {
+  margin-right: 220px;
+}
+
+.info-2 {
+  margin-right: 80px;
+}
+
+.info-3 {
+  margin-right: 300px;
+}
+
+/* PROYECTO 1 */
+
+section {
+  position: relative;
+
+  min-height: 100vh;
+  background: #f0f0f0;
+  text-align: center;
+  line-height: 0;
+}
+
+#project1 {
+margin-top: 0px;
+}
+
+.image-container {
+  position: relative;
+  z-index: 2;
+}
+
+.image-container img {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  display: block;
+}
+
+figure{
+  margin: 0;
+}
+figcaption{
+  font-size: 19px;
+  line-height: 1;
+  margin-top: 5px;
+  color: #939393;
+  text-align: left;
+}
+
+.scrollmagic-pin-spacer {
+  max-width: 100vw !important;
+  left: auto !important;
+  right: 0 !important;
+  box-sizing: border-box;
+  overflow: visible;
+}
+
+#videoPin {
+  position: absolute;
+  top: 60%;
+  left: 60%;
+  transform: translate(-50%, -50%) rotate(-5deg);
+  background: none;
+  border-radius: none;
+  z-index: 1;
+  will-change: transform;
+  width: 50vw;
+  max-width: 1000px;
+  height: auto;
+}
+
+#videoPin video {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+#next-content {
+  background: #f0f0f0;
+  min-height: 100vh;
+  padding: 100px 20px;
+}
+
+.cv-container {
+      display: flex;
+      justify-content: flex-end;
+      padding: 40px;
+      margin-top: 250px;
+      margin-right: 400px;
+      font-weight: 400;
+    }
+
+    .cv-content {
+      width: 400px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .cv-title {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .cv-entry {
+      display: flex;
+      align-items: flex-start;
+    }
+
+    .cv-date {
+      width: 80px;
+      font-weight: bold;
+      align-self: flex-start;
+      line-height: 1.2;
+    }
+
+    .cv-text {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      line-height: 1.2;
+      text-decoration: underline;
+    }
+
+.image-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 300px;
+}
+
+.image-wrapper {
+  width: 500px; /* mismo ancho que .cv-content */
+
+  overflow: hidden;
+}
+
+/* PROYECTO 2 */
+
+#project2{
+  margin-top: 100px;
+}
+  .full-width-images {
+    display: flex;
+    width: 100vw;  /* ancho total de la ventana */
+    gap: 1%;     /* espacio entre imágenes */
+  }
+
+  .full-width-images img {
+    width: 49.5%;    /* cada imagen ocupa la mitad del ancho */
+    height: auto;
+    object-fit: cover;  /* para que la imagen rellene sin deformarse */
+    align-self: flex-start; /* alinea la imagen al top */
+    display: block;   /* elimina espacio blanco debajo de imagen inline */
+  }
+  .video-vertical{
+    width: 49.5%;
+
+  }
+
+.video-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 100px;
+}
+
+.video-wrapper {
+  width: 500px; /* mismo ancho que .cv-content */
+  overflow: hidden;
+  margin-top: 50px;
+}
+  .video-vertical2{
+    width: 100%
+
+  }
+
+  /* PROYECTO 3 */
+
+  #project3{
+  margin-top: 50px;
+}
+
+.full-width-video{
+  max-width: 100vw;
+}
+.video-horizontal{
+  width: 100%;
+}
+
+.container-grid {
+  display: flex;
+  width: 97vw;
+  height: 100vh;
+  margin: 50px auto;
+  gap: 50px;
+
+  }
+
+  /* Bloques 1 y 2: grid 3x2 con huecos */
+  .grid-block {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 150px); /* tamaño fijo para imágenes cuadradas */
+    gap: 10px; /* espacio interno del grid */
+    width: 100%;
+    margin-bottom: 30px; /* gap entre bloques 1 y 2 o 2 y 3 */
+  }
+
+  /* Cada imagen cuadrada */
+  .grid-block img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  /* Para simular huecos transparentes: simplemente dejamos algunas posiciones vacías en el grid */
+
+  /* Bloque 3: imagen que ocupa todo el ancho */
+  .project3-side-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 50px; /* gap después del bloque 3 */
+    display: block;
+  }
+
+    /* PROYECTO 4 */
+
+  #project4{
+  margin-top: 50px;
+}
+
+.container-imagen-centro4{
+  width: 100%;
+  display: block;
+}
+.imagen-centro video{
+  align-self: center;
+  width: 800px;
+  height: auto;
+}
+
+
+    /* PROYECTO 5 */
+
+  #project5{
+  margin-top: 50px;
+}
+.container-imagen-centro5{
+  width: 100%;
+  display: block;
+}
+
+.imagen-centro-5 img{
+  align-self: center;
+  width: 900px;
+  height: auto;
+  margin: auto;
+}
+
+.imagen-centro-5 video{
+  margin-top: 5px;
+  align-self: center;
+  width: 100%;
+  height: auto;
+}
+
+    /* PROYECTO 6 */
+      #project5{
+  margin-top: 50px;
+}
+
+.carousel-container {
+  width: 85vw;
+  margin-left: 0;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  min-height: 300px; /* altura mínima deseada */
+}
+
+    .carousel-track {
+      display: flex;
+      transition: transform 0.5s ease-in-out;
+    }
+
+.carousel-slide {
+  flex: 0 0 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%; /* o una altura mínima si lo deseas */
+    }
+
+    .carousel-slide img {
+      width: 100%;
+      height: auto;
+      display: block;
+      align-items: center;
+    }
+
+    .nav-button {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      border: none;
+      padding: 10px;
+      cursor: pointer;
+      font-size: 18px;
+      z-index: 10;
+      opacity: 0;
+    }
+
+    .prev {
+      left: 10px;
+    }
+
+    .next {
+      right: 10px;
+    }
+ .container-aleatorio {
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      gap: 1rem;
+      align-items: center;
+      max-width: 95%;
+      margin: auto;
+      margin-top: -100px;
+    }
+
+    /* Specific positioning */
+    .item1 {
+      grid-column: 8 / span 5;
+      position: relative;
+      top: 80px;
+      max-width: 70%;
+      margin-left: auto;
+      
+    }
+
+    .item2 {
+      grid-column: 8 / span 5;
+      grid-row: 2;
+    }
+
+    .item3 {
+      grid-column: 1 / span 7;
+      grid-row: 2;
+    }
+
+    .item4 {
+      grid-column: 1 / span 7;
+      grid-row: 1;
+    }
+
+    img {
+      width: 100%;
+      display: block;
+      object-fit: cover;
+    }
+
+
+
+       /* PROYECTO 7 */
+
+   #project7{
+      margin-top: 50px;
+    margin-bottom: 100px;
+   }
+
+   .container-7 {
+      position: relative;
+      width: 100vw;
+      height: 250vh;
+      overflow: hidden;
+    }
+
+    .container-7-messy-mobile{
+      display:none;
+    }
+
+    .item {
+      position: absolute;
+      max-width: 300px;
+    }
+
+    .img1 { 
+      top: 20px; 
+      left: 20px; 
+      max-width: 55%;
+  }
+
+    .video { 
+      top: 20px; 
+      right: 300px; 
+    }
+    .img2 { 
+      top: 550px; 
+      right: 30px; 
+      max-width: 40%;
+    }
+    
+    .img3 { 
+      top: 1000px; 
+      right: 30px; 
+      max-width: 200px;
+    }
+    .img4 { 
+      top: 1000px; 
+      right: 240px; 
+      max-width: 200px;
+    }
+
+    .img5 { 
+      top: 1000px; 
+      left: 200px; 
+    }
+    .img6 { 
+      bottom: 400px; 
+      right: 30px; 
+      max-width: 200px;
+    }
+    .img7 { 
+      top: 1500px; 
+      right: 240px; 
+      max-width: 200px;
+    }
+
+
+
+
+
+
+
+   /* PROYECTO 8 */
+
+   #project8{
+      margin-top: 50px;
+    margin-bottom: 100px;
+   }
+
+.carousel-container-8 {
+  width: 45vw;
+  margin-right: 200px;
+  margin-left: auto;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  min-height: 300px; /* altura mínima deseada */
+}
+
+    .carousel-track2 {
+      display: flex;
+      transition: transform 0.5s ease-in-out;
+    }
+
+.carousel-slide2 {
+  flex: 0 0 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%; /* o una altura mínima si lo deseas */
+    }
+
+    .carousel-slide2 img {
+      width: 100%;
+      height: auto;
+      display: block;
+      align-items: center;
+    }
+
+    .nav-button2 {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      border: none;
+      padding: 10px;
+      cursor: pointer;
+      font-size: 18px;
+      z-index: 10;
+      opacity: 0;
+    }
+
+    .prev {
+      left: 10px;
+    }
+
+    .next {
+      right: 10px;
+    }
+
+
+  .imagen-centro-8 video{
+  margin-top: 5px;
+  align-self: center;
+  width: 90%;
+  height: auto;
+  margin: auto;
+}
+
+/* Media queries para diseño responsive */
+@media (max-width: 768px) {
+
+  /*
+    body {
+    transform: scale(0.5);
+    transform-origin: top left;
+    width: 200vw;
+  }
+    */
+  #videoPin {
+    width: 80vw;
+    height: auto;
+    top: 65%;
+    left: 50%;
+  }
+}
+
+@media (max-width: 480px) {
+
+  /*
+    body {
+    transform: scale(1);
+    transform-origin: top left;
+    width: 222vw;
+  }
+    */
+
+
+     /*  HEADER  */
+
+  .header{
+    margin-top: 20px;
+    justify-content: flex-start;
+  }
+  .column-2{
+    display: none;
+    margin: 0;
+  }
+  .column-3{
+    display: none;
+    margin: 0;
+  }
+  .column-4{
+    display: none;
+    margin: 0;
+  }
+  .column-5{
+    display: none;
+    margin: 0;
+  }
+  .column-6 {
+  display: unset;
+}
+
+.column p {
+  margin: 0;
+  font-family: "Gulzar", serif;
+  font-weight: 400;
+  font-size: 11px;
+  font-style: normal;
+  line-height: 14px;
+  
+}
+.titulos-proyecto {
+  max-width: 100%;
+  justify-content: flex-start;
+  display: flex;
+  background-color: #f0f0f0;
+  padding: 0;
+  margin-bottom: 0;
+  padding-left: 10px;
+  font-size: 11px;
+
+}
+
+.proyecto {
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+}
+
+.info-1 {
+  margin-right: 50px;
+}
+
+.info-2 {
+  margin-right: 80px;
+}
+
+.info-3 {
+  margin-right: 30px;
+}
+
+figcaption{
+  font-size: 11px;
+}
+
+   /* PROYECTO 1 */
+
+   section {
+  position: relative;
+  min-height: 60vh;
+}
+
+  .scrollmagic-pin-spacer {
+    left: 50% !important;
+    right: 0 !important;
+    top: 0;
+  }
+
+  #videoPin {
+  position: absolute;
+  top: 5%;
+  left: 60%;
+  width: 80vw;
+  max-width: 1000px;
+  height: auto;
+}
+
+
+  .cv-container{
+    position: relative;
+    left: 50%;           /* lo desplaza a la mitad */
+    width: 50%;          /* ocupa la mitad de ancho */
+    padding: 0;
+    padding-bottom: 30px;
+    font-size: 11px;
+    line-height: 14px;
+    color: #494949;
+    margin-top: 0;
+  }
+
+    .cv-date {
+    width: auto;
+    margin-right: 5px;
+  }
+
+  .image-container{
+    width: 100%;
+  }
+  .image-wrapper{
+    width: 100%;
+  }
+  .image-container img{
+    width: 90%;
+  }
+
+
+
+
+   /* PROYECTO 2 */
+
+
+
+.full-width-images,
+  .video-container, .video-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* alinear a la izquierda */
+    gap: 2px;
+    margin: 0;
+    width: 100%;
+  }
+
+  /* Imagen */
+  .full-width-images img {
+    width: 80%; /* ajusta ancho a tu gusto */
+
+  }
+
+  /* Primer video */
+  .video-vertical {
+    width: 100%;
+
+  }
+
+  /* Segundo video */
+  .video-vertical2 {
+    width: 100%;
+   
+  }
+
+
+
+     /* PROYECTO 3 */
+
+.full-width-video{
+  max-width: 100%;
+}
+
+  .container-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Bloques 1 y 2 lado a lado */
+    column-gap: 1rem;
+    row-gap: 0;
+    margin: 10px;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+
+  }
+
+  .grid-block {
+    width: 100%; /* cada bloque puede usar su grid interno normalmente */
+    margin-bottom: 0;
+    grid-template-rows: repeat(3, 100px);
+    gap: 1px;
+  }
+
+
+  .project3-side-image {
+    grid-column: 1 / -1; /* ocupa toda la fila debajo de los bloques */
+    display: block;
+    margin-left: auto; /* centrada con margen superior */
+    margin-right: auto;
+    width: 70%; /* ajusta tamaño de la imagen */
+    margin-top: 0;
+
+
+    
+  }
+
+
+     /* PROYECTO 4 */
+.container-imagen-centro4{
+  max-width: 100%;
+}
+.imagen-centro video{
+  width: 100%;
+}
+
+     /* PROYECTO 5 */
+     .container-imagen-centro5{
+      max-width: 100%;
+     }
+
+.imagen-centro-5 img{
+  max-width: 70%;
+}
+.imagen-centro-5 video{
+  max-width: 100%;
+  margin-bottom: 40px;
+}
+
+     /* PROYECTO 6 */
+  .carousel-container{
+    width: 80%;
+  }
+  
+   .container-aleatorio {
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      gap: 5px;
+      align-items: center;
+      max-width: 95%;
+    }
+
+
+    .item1 {
+      grid-column: 2 / span 5;
+      position: relative;
+      width: 100%;
+      margin-right: 10px;
+      margin-bottom: 80px;
+    }
+    .item1 img{
+      width: 300px;
+    }
+
+    .item2 {
+      grid-column: 8 / span 5;
+      grid-row: 2;
+      width: 100%;
+    }
+    .item2 img{
+      width: 100%;
+    }
+
+    .item3 {
+      grid-column: 1 / span 7;
+      grid-row: 2;
+
+    }
+
+
+
+    img {
+      width: 100%;
+      display: block;
+      object-fit: cover;
+    }
+
+
+
+     /* PROYECTO 7 */
+
+#project7{
+  margin:0;
+}
+
+   .container-7 {
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: visible;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* 'left' no es válido */
+    gap: 1rem;
+  }
+
+  /* Anular el absolute heredado de .item SOLO dentro del primer container */
+  .container-7 .item {
+    position: static !important;
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  /* Forzar el orden correcto sin cambiar el HTML */
+  .container-7 .video { order: 1; max-width: 90%; }
+  .container-7 .img1  { order: 2; max-width: 100%; }
+  .container-7 .img2  { order: 3; max-width: 100%; }
+
+  .container-7-messy-desktop{
+      display:none;
+    }
+
+ .container-7-messy-mobile {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* izquierda más estrecha */
+    gap: 1rem;
+    width: 100%;
+    margin-top: 0rem;
+  }
+
+  /* Columna izquierda: img5 */
+  .container-7-messy-mobile .img5 {
+    grid-column: 1;
+    grid-row: 1 / span 3; /* ocupa toda la altura */
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-top: 50px;
+  }
+
+  /* Columna derecha: subgrid */
+  .container-7-messy-mobile .right-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, auto);
+    gap: 0rem;
+    grid-column: 2;
+  }
+
+  /* Ajustamos las imágenes del subgrid */
+  .right-grid img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  /* Ejemplo de colocación dejando huecos */
+  .img3 { grid-column: 1; grid-row: 1; }
+  .img4 { grid-column: 2; grid-row: 1; }
+  /* Hueco vacío en grid-row: 2, col:1 */
+  .img6 { grid-column: 2; grid-row: 2; }
+  .img7 { grid-column: 1; grid-row: 3; }
+
+}
+
+     /* PROYECTO 8 */
+  .carousel-container-8{
+    width: 100%;
+  }
+.imagen-centro-8{
+  width: 100%;
+}
+.imagen-centro-8 video{
+  width: 100%;
+}
+
+
+
+
