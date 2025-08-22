@@ -7,6 +7,8 @@ body {
   background-color: #f0f0f0;
 }
 
+
+
 .header {
   max-width: 100%;
   justify-content: space-between;
@@ -525,7 +527,7 @@ figcaption{
    }
 
 .carousel-container-8 {
-  width: 45vw;
+  max-width: 45vw;
   margin-right: 200px;
   margin-left: auto;
   overflow: hidden;
@@ -689,10 +691,16 @@ figcaption{
   min-height: 60vh;
 }
 
+  .section-wrapper {
+    overflow-x: hidden;   /* corta cualquier exceso lateral */
+  }
+
   .scrollmagic-pin-spacer {
-    left: 50% !important;
+    left: 0% !important;
     right: 0 !important;
     top: 0;
+    max-width: 100%;
+    
   }
 
   #videoPin {
@@ -702,6 +710,7 @@ figcaption{
   width: 80vw;
   max-width: 1000px;
   height: auto;
+ 
 }
 
 
@@ -715,6 +724,7 @@ figcaption{
     line-height: 14px;
     color: #494949;
     margin-top: 0;
+    margin-right: 0px;
   }
 
     .cv-date {
@@ -724,6 +734,7 @@ figcaption{
 
   .image-container{
     width: 100%;
+    margin-right: 0px;
   }
   .image-wrapper{
     width: 100%;
@@ -780,7 +791,8 @@ figcaption{
     grid-template-columns: 1fr 1fr; /* Bloques 1 y 2 lado a lado */
     column-gap: 1rem;
     row-gap: 0;
-    margin: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     width: 100%;
     aspect-ratio: 1 / 1;
     object-fit: cover;
@@ -954,11 +966,13 @@ figcaption{
   .img6 { grid-column: 2; grid-row: 2; }
   .img7 { grid-column: 1; grid-row: 3; }
 
-}
+
 
      /* PROYECTO 8 */
   .carousel-container-8{
     width: 100%;
+    max-width: 100%;
+    margin: auto;
   }
 .imagen-centro-8{
   width: 100%;
@@ -967,6 +981,6 @@ figcaption{
   width: 100%;
 }
 
-
+}
 
 
