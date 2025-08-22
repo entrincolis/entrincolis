@@ -1,5 +1,5 @@
 
-
+/* code by j@vigasworks.com */
 
 body {
   margin: 0;
@@ -14,7 +14,7 @@ body {
   padding: 10px;
   background-color: #f0f0f0;
   padding: 10px;
-  gap: 0; /* Espacio general entre columnas, puede ser ajustado individualmente también */
+  gap: 0; 
   margin-bottom: 100px;
   color: #494949;
 }
@@ -54,7 +54,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   font-style: normal;
-  line-height: 18px;
+  line-height: 19px;
   
 }
 
@@ -233,7 +233,7 @@ figcaption{
     width: 49.5%;    /* cada imagen ocupa la mitad del ancho */
     height: auto;
     object-fit: cover;  /* para que la imagen rellene sin deformarse */
-    align-self: flex-start; /* alinea la imagen al top */
+    align-self: flex-start; 
     display: block;   /* elimina espacio blanco debajo de imagen inline */
   }
   .video-vertical{
@@ -297,7 +297,7 @@ figcaption{
     display: block;
   }
 
-  /* Para simular huecos transparentes: simplemente dejamos algunas posiciones vacías en el grid */
+  /* Para simular huecos transparentes: dejamos algunas posiciones vacías en el grid */
 
   /* Bloque 3: imagen que ocupa todo el ancho */
   .project3-side-image {
@@ -374,7 +374,7 @@ figcaption{
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100%; /* o una altura mínima si lo deseas */
+  height: 100%; 
     }
 
     .carousel-slide img {
@@ -545,7 +545,7 @@ figcaption{
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100%; /* o una altura mínima si lo deseas */
+  height: 100%; 
     }
 
     .carousel-slide2 img {
@@ -584,7 +584,7 @@ figcaption{
   margin: auto;
 }
 
-/* Media queries para diseño responsive */
+
 @media (max-width: 768px) {
 
   /*
@@ -751,7 +751,7 @@ figcaption{
 
   /* Imagen */
   .full-width-images img {
-    width: 80%; /* ajusta ancho a tu gusto */
+    width: 80%; 
 
   }
 
@@ -892,7 +892,7 @@ figcaption{
     overflow: visible;
     display: flex;
     flex-direction: column;
-    align-items: flex-start; /* 'left' no es válido */
+    align-items: flex-start; 
     gap: 1rem;
   }
 
@@ -940,14 +940,14 @@ figcaption{
     grid-column: 2;
   }
 
-  /* Ajustamos las imágenes del subgrid */
+  /* imágenes del subgrid */
   .right-grid img {
     width: 100%;
     height: auto;
     object-fit: cover;
   }
 
-  /* Ejemplo de colocación dejando huecos */
+  /* colocación dejando huecos */
   .img3 { grid-column: 1; grid-row: 1; }
   .img4 { grid-column: 2; grid-row: 1; }
   /* Hueco vacío en grid-row: 2, col:1 */
