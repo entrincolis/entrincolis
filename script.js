@@ -12,5 +12,5 @@ const scene = new ScrollMagic.Scene({
 if (window.innerWidth <= 480) {
   const videoPin = document.getElementById("videoPin");
   videoPin.style.left = "50%";
-  videoPin.style.transform = "translateX(10%) translateY(-50%) rotate(-5deg)";
+  videoPin.style.transform = "translateX(10%) translateY(-50%)";
 } 

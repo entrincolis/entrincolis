@@ -145,7 +145,7 @@ figcaption{
   position: absolute;
   top: 60%;
   left: 60%;
-  transform: translate(-50%, -50%) rotate(-5deg);
+  transform: translate(-50%, -50%) ;
   background: none;
   border-radius: none;
   z-index: 1;
@@ -223,7 +223,7 @@ figcaption{
 /* PROYECTO 2 */
 
 #project2{
-  margin-top: 100px;
+  margin-top: 50px;
 }
   .full-width-images {
     display: flex;
@@ -313,7 +313,7 @@ figcaption{
     /* PROYECTO 4 */
 
   #project4{
-  margin-top: 50px;
+  margin-top: -80px;
 }
 
 .container-imagen-centro4{
@@ -330,7 +330,7 @@ figcaption{
     /* PROYECTO 5 */
 
   #project5{
-  margin-top: 50px;
+  margin-top: 10px;
 }
 .container-imagen-centro5{
   width: 100%;
@@ -352,8 +352,8 @@ figcaption{
 }
 
     /* PROYECTO 6 */
-      #project5{
-  margin-top: 50px;
+      #project6{
+  margin-top: 10px;
 }
 
 .carousel-container {
@@ -389,6 +389,7 @@ figcaption{
     .nav-button {
       position: absolute;
       top: 50%;
+      height: 100%;
       transform: translateY(-50%);
       border: none;
       padding: 10px;
@@ -451,8 +452,8 @@ figcaption{
        /* PROYECTO 7 */
 
    #project7{
-      margin-top: 50px;
-    margin-bottom: 100px;
+      margin-top: 10px;
+    margin-bottom: 0px;
    }
 
    .container-7 {
@@ -460,6 +461,7 @@ figcaption{
       width: 100vw;
       height: 250vh;
       overflow: hidden;
+      margin-top: -25px;
     }
 
     .container-7-messy-mobile{
@@ -522,7 +524,7 @@ figcaption{
    /* PROYECTO 8 */
 
    #project8{
-      margin-top: 50px;
+      margin-top: -100px;
     margin-bottom: 100px;
    }
 
@@ -560,6 +562,7 @@ figcaption{
     .nav-button2 {
       position: absolute;
       top: 50%;
+      height: 100%;
       transform: translateY(-50%);
       border: none;
       padding: 10px;
@@ -969,6 +972,11 @@ figcaption{
 
 
      /* PROYECTO 8 */
+
+    #project8{
+      margin-top: -20px;
+    margin-bottom: 10px;
+   }
   .carousel-container-8{
     width: 100%;
     max-width: 100%;
