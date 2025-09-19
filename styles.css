@@ -24,6 +24,7 @@ body {
 .column {
   display: flex;
   flex-direction: column;
+  
 }
 
 .column-1 {
@@ -58,12 +59,19 @@ body {
   font-style: normal;
   line-height: 19px;
   
+  
 }
 
 a{
   text-decoration: none;
   color: #494949;
+  line-height: 19px;
 }
+
+.column p a {
+  display: inline-block;
+}
+
 
 .titulos-proyecto {
   max-width: 100%;
@@ -99,7 +107,6 @@ a{
 
 section {
   position: relative;
-
   min-height: 100vh;
   background: #f0f0f0;
   text-align: center;
@@ -325,7 +332,6 @@ figcaption{
   width: 800px;
   height: auto;
 }
-
 
     /* PROYECTO 5 */
 
@@ -644,6 +650,7 @@ figcaption{
   display: unset;
 }
 
+
 .column p {
   margin: 0;
   font-family: "Gulzar", serif;
@@ -651,8 +658,16 @@ figcaption{
   font-size: 11px;
   font-style: normal;
   line-height: 14px;
-  
 }
+.column a {
+  margin: 0;
+  font-family: "Gulzar", serif;
+  font-weight: 400;
+  font-size: 11px;
+  font-style: normal;
+  line-height: 14px;
+}
+
 .titulos-proyecto {
   max-width: 100%;
   justify-content: flex-start;
