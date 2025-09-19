@@ -1,5 +1,4 @@
 
-/* code by j@vigasworks.com */
 
 body {
   margin: 0;
@@ -37,6 +36,9 @@ body {
 
 .column-3 {
   margin-right: 300px;
+}
+.column-3 a{
+  line-height: 19px;
 }
 .column-4 {
   margin-right: 60px;
